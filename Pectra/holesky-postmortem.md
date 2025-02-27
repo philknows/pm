@@ -23,7 +23,7 @@ Instructions for how to disable slashing protection per client.
 **Lodestar**
 1. Stop validator client
 2. `rm -r <dataDir>/validator-db`
-3. Start validator client
+3. Start validator client (Ensure `--doppelgangerProtection` is disabled. [It is disabled by default](https://chainsafe.github.io/lodestar/run/validator-management/validator-cli#--doppelgangerprotection))
 
 ## Client Releases and Resources
 
